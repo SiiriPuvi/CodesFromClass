@@ -1,0 +1,11 @@
+<property name="javax.persistence.jdbc.driver" value="org.eclipse.persistence.platform.database.jdbc.JDBCDriver"/>
+<property name="javax.persistence.jdbc.url" value="jdbc:eclipselink://localhost:8080/your_database_name"/>
+<property name="javax.persistence.jdbc.user" value="your_database_username"/>
+<property name="javax.persistence.jdbc.password" value="your_database_password"/>
+<property name="eclipselink.target-server" value="org.eclipse.persistence.platform.server.jboss.JBossPlatform"/>
+<property name="eclipselink.target-database" value="org.eclipse.persistence.platform.database.PostgreSQLPlatform"/>
+<property name="eclipselink.logging.level" value="FINE"/>
+<property name="eclipselink.logging.parameters" value="true"/>
+<property name="javax.persistence.transactionType" value="JTA"/>
+<property name="javax.persistence.jtaDataSource" value="java:/jdbc/your_datasource_name"/>
+<property name="eclipselink.weaving" value="false"/>
